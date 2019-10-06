@@ -7,6 +7,7 @@ namespace SHAHash
     public static class Hash
     {
         private const string Format = "x2";
+
         public static String SHA1Hash(String strValue)
         {
             using (SHA1 sha1Hash = new SHA1Managed())
